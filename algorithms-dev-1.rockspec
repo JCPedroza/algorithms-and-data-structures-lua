@@ -1,14 +1,17 @@
 package = "algorithms"
 version = "dev-1"
 source = {
-   url = "*** please add URL for source tarball, zip or repository here ***"
+   url = "https://github.com/JCPedroza/algorithms-and-data-structures-lua"
 }
 description = {
-   homepage = "*** please enter a project homepage ***",
-   license = "*** please specify a license ***"
+   homepage = "https://github.com/JCPedroza/algorithms-and-data-structures-lua",
+   license = "MIT"
 }
 dependencies = {
-   "lua ~> 5.3"
+   "lua ~> 5.3",
+   "luacheck >= 0.26.1",
+   "lanes >= 3.16",
+   "busted >= 2.0.0"
 }
 build = {
    type = "builtin",
