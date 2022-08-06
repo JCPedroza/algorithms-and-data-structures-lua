@@ -21,5 +21,10 @@
         "**/lua": true,
         "**/luarocks": true
     },
-    "files.trimTrailingWhitespace": true
+    "files.trimTrailingWhitespace": true,
+
+    "Lua.diagnostics.globals": [
+      "describe",
+      "it"
+    ]
 }
