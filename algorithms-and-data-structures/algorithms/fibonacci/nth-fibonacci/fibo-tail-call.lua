@@ -12,6 +12,6 @@ local function fibo(index)
 end
 
 return {
-  algorithm = fibo,
+  fun = fibo,
   id = 'tail call recursion'
 }

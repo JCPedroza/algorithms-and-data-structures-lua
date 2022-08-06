@@ -15,6 +15,6 @@ local function fibo(index)
 end
 
 return {
-  algorithm = fibo,
+  fun = fibo,
   id = 'recursive memoization'
 }

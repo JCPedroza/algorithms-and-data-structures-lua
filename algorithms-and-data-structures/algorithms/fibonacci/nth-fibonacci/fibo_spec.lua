@@ -6,14 +6,14 @@ local test_subjects = {
 
 for _, subject in ipairs(test_subjects) do
   describe(string.format('Fibonacci algorithm "%s"', subject.id), function()
-    it('computes the nth Fibonacci number', function()
-      assert.is_equal(subject.algorithm(0), 0)
-      assert.is_equal(subject.algorithm(1), 1)
-      assert.is_equal(subject.algorithm(2), 1)
-      assert.is_equal(subject.algorithm(3), 2)
-      assert.is_equal(subject.algorithm(4), 3)
-      assert.is_equal(subject.algorithm(5), 5)
-      assert.is_equal(subject.algorithm(6), 8)
+    it('computes the first Fibonacci numbers', function()
+      assert.is_equal(subject.fun(0), 0)
+      assert.is_equal(subject.fun(1), 1)
+      assert.is_equal(subject.fun(2), 1)
+      assert.is_equal(subject.fun(3), 2)
+      assert.is_equal(subject.fun(4), 3)
+      assert.is_equal(subject.fun(5), 5)
+      assert.is_equal(subject.fun(6), 8)
     end)
   end)
 end
