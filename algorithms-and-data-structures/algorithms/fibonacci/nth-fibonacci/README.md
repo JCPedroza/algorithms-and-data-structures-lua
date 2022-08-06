@@ -8,7 +8,8 @@ two terms. By starting with 0 and 1, the first 11 terms will be:
 Each Fibonacci number can be referenced by its index, which is its position
 in the sequence, starting from 0.
 
-Write a function that finds the `n`th Fibonacci number.
+Write a function that finds the `n`th Fibonacci number. For simplicity,
+assume that all inputs will be non-negative integers below `50`.
 
 The function signature is
 
@@ -18,4 +19,6 @@ function fibo(index: number): number
 
 ## References
 
-- [Fibonacci number at Wikipedia](https://en.wikipedia.org/wiki/Fibonacci_number)
+- [Fibonacci number at Wikipedia][0]
+
+[0]: https://en.wikipedia.org/wiki/Fibonacci_number
