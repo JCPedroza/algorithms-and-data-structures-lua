@@ -8,5 +8,6 @@ read_globals = {
 }
 
 exclude_files = {
-  'lua_modules'
+  'lua_modules',
+  '.luarocks'
 }
