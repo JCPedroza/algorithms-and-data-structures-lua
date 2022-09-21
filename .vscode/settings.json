@@ -1,6 +1,4 @@
 {
-    "editor.bracketPairColorization.enabled": true,
-    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
     "editor.detectIndentation": false,
     "editor.insertSpaces": true,
     "editor.rulers": [
@@ -8,7 +6,6 @@
     ],
     "editor.tabSize": 2,
     "editor.trimAutoWhitespace": true,
-
     "files.exclude": {
         "**/.git": true,
         "**/.svn": true,
@@ -22,7 +19,6 @@
         "**/luarocks": true
     },
     "files.trimTrailingWhitespace": true,
-
     "Lua.diagnostics.globals": [
       "describe",
       "it"
