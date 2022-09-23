@@ -23,7 +23,9 @@ luacheck .
 
 ### Typing
 
-Type annotations in documentation are based on [Teal][50].
+The type annotation system used in the documentation is based on [Teal][50].
+And the type annotation system used in the comments is based on [LDoc][52].
 
 [50]: https://github.com/teal-language/
 [51]: https://github.com/mpeterv/luacheck
+[52]: https://github.com/lunarmodules/LDoc
