@@ -17,7 +17,7 @@ function muls_of_3_or_5(limit: number): number
 
 ## Examples
 
-```
+```text
 in: -1  out:  0
 in:  0  out:  0
 in:  1  out:  0
@@ -31,7 +31,7 @@ in: 10  out: 23
 
 - [Project Euler Problem 001][0]
 - [Project Euler Problem 001 at freeCodeCamp][1]
-- [Sum Multiples of 3 or 5 at Rosetta Code][3]
+- [Sum Multiples of 3 or 5 at Rosetta Code][2]
 
 [0]: https://projecteuler.net/problem=1
 [1]: https://www.freecodecamp.org/learn/coding-interview-prep/project-euler/problem-1-multiples-of-3-and-5
